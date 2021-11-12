@@ -48,11 +48,11 @@ const listNotes = () => {
 
 const readNote = (title) => {
 	const notes = loadNotes()
-	const matchedData = notes.find((note) => note.title === title)
-	if (matchedData) {
+	const matchedNote = notes.find((note) => note.title === title)
+	if (matchedNote) {
 		debug('The item is found')
-		debug('Title: ' + matchedData.title)
-		debug('Body: ' + matchedData.body)
+		debug('Title: ' + matchedNote.title)
+		debug('Body: ' + matchedNote.body)
 		return
 	} else {
 		debug('No item found with provided title')
