@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"debug": "^4.3.2",
+		"yargs": "^17.2.1"
+	},
+	"name": "notes",
+	"version": "1.0.1",
+	"description": "A notes application from Andrew Mead's course on Udemy",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
